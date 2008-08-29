@@ -6,16 +6,16 @@ from setuptools import setup, find_packages
 name = 'gocept.cxoracle'
 
 classifiers = [
-    'Development Status :: 3 - Alpha'
+    'Development Status :: 3 - Alpha',
     'Environment :: Console',
     'Environment :: Plugins',
-    'Framework :: Buildout'
-    'Intended Audience :: Developers'
-    'License :: OSI Approved :: Zope Public License'
-    'Operating System :: MacOS :: MacOS X'
-    'Operating System :: POSIX :: Linux'
-    'Programming Language :: C'
-    'Programming Language :: Python'
+    'Framework :: Buildout',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: Zope Public License',
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: C',
+    'Programming Language :: Python',
     'Topic :: Software Development :: Build Tools',
     'Topic :: System :: Software Distribution',
 ]
