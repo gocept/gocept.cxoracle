@@ -5,7 +5,20 @@ from setuptools import setup, find_packages
 
 name = "gocept.cxoracle"
 
-classifiers = []
+classifiers = [
+    "Development Status :: 3 - Alpha"
+    "Environment :: Console",
+    "Environment :: Plugins",
+    "Framework :: Buildout"
+    "Intended Audience :: Developers"
+    "License :: OSI Approved :: Zope Public License"
+    "Operating System :: MacOS :: MacOS X"
+    "Operating System :: POSIX :: Linux"
+    "Programming Language :: C"
+    "Programming Language :: Python"
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: System :: Software Distribution",
+]
 
 setup(
     name = name,
@@ -19,10 +32,8 @@ setup(
         open(os.path.join('src', 'gocept', 'cxoracle', 'README.txt')).read()),
     license = "ZPL 2.1",
     classifiers = classifiers,
-    url = "http://svn.gocept.com/repos/gocept/" + name,
-    download_url = \
-    "https://svn.gocept.com/repos/gocept/"
-    "%(name)s/trunk#egg=%(name)s-dev" % {"name": name},
+    url = "http://pypi.python.org/pypi/gocept.cxoracle",
+    download_ = "http://pypi.python.org/pypi/gocept.cxoracle",
     packages = find_packages("src"),
     include_package_data = True,
     package_dir = {"": "src"},
