@@ -1,6 +1,7 @@
 # Copyright (c) 2008 gocept gmbh & co. kg
 # See also LICENSE.txt
 
+import os.path
 from setuptools import setup, find_packages
 
 name = 'gocept.cxoracle'
@@ -45,4 +46,3 @@ setup(
     extras_require = {'test': ['zope.testing']},
     entry_points = {'zc.buildout': ['default = %s.recipe:CxOracle' % name,],},
     )
-
