@@ -14,7 +14,9 @@ setup(
     author_email = "cz@gocept.com",
     description = \
     "zc.buildout recipe for installing cx_Oracle",
-    long_description = open("README.txt").read(),
+    long_description = (
+        open("README.txt").read() + '\n\n' +
+        open(os.path.join('src', 'gocept', 'cxoracle', 'README.txt')).read()),
     license = "ZPL 2.1",
     classifiers = classifiers,
     url = "http://svn.gocept.com/repos/gocept/" + name,
