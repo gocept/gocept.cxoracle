@@ -10,7 +10,7 @@ classifiers = [
     'Development Status :: 3 - Alpha',
     'Environment :: Console',
     'Environment :: Plugins',
-    'Framework :: Buildout'
+    'Framework :: Buildout',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: Zope Public License',
     'Operating System :: MacOS :: MacOS X',
