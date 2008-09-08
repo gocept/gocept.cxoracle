@@ -18,7 +18,6 @@ class CxOracle(object):
         r'^(libclntsh)\.([[a-z]+)\.([\d.]+)$')
 
     def __init__(self, buildout, name, options):
-        import pdb; pdb.set_trace() 
         self.buildout = buildout
         self.name = name
         self.options = options
