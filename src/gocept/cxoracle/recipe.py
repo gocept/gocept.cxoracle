@@ -28,6 +28,8 @@ class CxOracle(object):
         self.loader = options['_loader_path'] = os.path.join(
             buildout['buildout']['bin-directory'], options['loader-name'])
         options['executable'] = self.loader
+        options['sysname'] = os.uname()[0]
+        options['machine'] = os.uname()[-1]
 
     def install(self):
         if os.path.isdir(self.part_directory):
