@@ -23,7 +23,7 @@ classifiers = [
 
 setup(
     name = name,
-    version = 'dev',
+    version = '0.2dev',
     author = 'Christian Zagrodnick',
     author_email = 'cz@gocept.com',
     description = \
