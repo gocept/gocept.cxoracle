@@ -13,4 +13,3 @@ Changes
 ----------------
 
 - first release
-
